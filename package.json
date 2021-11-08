@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "application that takes and saves notes ",
+  "main": "(index.html)",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TATORR/note-taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "TATORR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TATORR/note-taker/issues"
+  },
+  "homepage": "https://github.com/TATORR/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^17.0.1"
+  }
+}
