@@ -1,7 +1,7 @@
-cons express = requrie ("express"); 
+const express = require ("express"); 
 
-cons app = express();
-cons PORT = process.env.PORT || 8080;
+const app = express();
+const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
